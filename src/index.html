@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Review Page</title>
-</head>
-
-<body>
-  <!-- TASK 2.1 - ADD YOUR CODE BELOW -->
-
-  <!-- TASK 2.1 - YOUR CODE ENDS HERE -->
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Review Page</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="bubble bubble1"></div>
+      <div class="bubble bubble2"></div>
+      <div class="bubble bubble3"></div>
+      <div class="bubble bubble4"></div>
+    </div>
+    <div class="phone">
+      <div class="status-bar">
+        <div class="time" id="time"></div>
+        <div class="signals">
+          <div class="cellular"></div>
+          <div class="wifi"></div>
+          <div class="battery"></div>
+        </div>
+      </div>
+      <div class="question">How was your experience with us?</div>
+      <div class="feedback-face">
+        <svg id="face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+          <!-- SVG content for the face -->
+        </svg>
+        <div class="rating-text">BAD</div>
+      </div>
+      <div class="rating-wheel">
+        <div class="wheel" id="wheel">
+          <!-- Wheel content -->
+        </div>
+        <button class="submit" id="submit">Submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

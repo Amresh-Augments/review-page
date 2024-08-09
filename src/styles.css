@@ -1,3 +1,147 @@
-/* TASK 2.2 - ADD YOUR CODE BELOW */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
 
-/* TASK 2.2 - YOUR CODE ENDS HERE */
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bubble1 {
+  width: 200px;
+  height: 200px;
+  background: #4caf50;
+  top: 10%;
+  left: 5%;
+}
+
+.bubble2 {
+  width: 150px;
+  height: 150px;
+  background: #ff5722;
+  top: 50%;
+  left: 70%;
+}
+
+.bubble3 {
+  width: 100px;
+  height: 100px;
+  background: #00bcd4;
+  top: 30%;
+  left: 30%;
+}
+
+.bubble4 {
+  width: 120px;
+  height: 120px;
+  background: #ffeb3b;
+  top: 80%;
+  left: 15%;
+}
+
+.phone {
+  width: 320px;
+  height: 640px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.time {
+  font-size: 14px;
+}
+
+.signals {
+  display: flex;
+  gap: 10px;
+}
+
+.cellular,
+.wifi,
+.battery {
+  width: 20px;
+  height: 20px;
+  background: gray;
+  border-radius: 3px;
+}
+
+.question {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.feedback-face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#face {
+  width: 100px;
+  height: 100px;
+}
+
+.rating-text {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.rating-wheel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#wheel {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, red, yellow, green);
+  position: relative;
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit:hover {
+  background: darkred;
+}
